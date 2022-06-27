@@ -122,19 +122,19 @@ function roll() {
     var dieImageSource11 = "/yoga_dice/img/yoga_poses/" + dieImage11;
     var dieImageSource12 = "/yoga_dice/img/yoga_poses/" + dieImage12;
 
-    // var image1 = document.querySelectorAll("img")[0];
-    var image1 = document.querySelectorAll("img")[3];
-    var image2 = document.querySelectorAll("img")[4];
-    var image3 = document.querySelectorAll("img")[5];
-    var image4 = document.querySelectorAll("img")[6];
-    var image5 = document.querySelectorAll("img")[7];
-    var image6 = document.querySelectorAll("img")[8];
-    var image7 = document.querySelectorAll("img")[9];
-    var image8 = document.querySelectorAll("img")[10];
-    var image9 = document.querySelectorAll("img")[11];
-    var image10 = document.querySelectorAll("img")[12];
-    var image11 = document.querySelectorAll("img")[13];
-    var image12 = document.querySelectorAll("img")[14];
+
+    var image1 = $("img")[3];
+    var image2 = $("img")[4];
+    var image3 = $("img")[5];
+    var image4 = $("img")[6];
+    var image5 = $("img")[7];
+    var image6 = $("img")[8];
+    var image7 = $("img")[9];
+    var image8 = $("img")[10];
+    var image9 = $("img")[11];
+    var image10 = $("img")[12];
+    var image11 = $("img")[13];
+    var image12 = $("img")[14];
 
     // image1.setAttribute("src", randomImageSource);
     image1.setAttribute("src", dieImageSource1);
