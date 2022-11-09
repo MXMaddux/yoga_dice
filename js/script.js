@@ -76,7 +76,7 @@ const poses = {
 
 
 function roll() {
-    let audio = new Audio('/yoga_dice/audio/roll_dice.mp3');
+    let audio = new Audio('./audio/roll_dice.mp3');
     audio.loop = false;
     audio.play();
     let randNum1 = Math.floor(Math.random() * 72) + 1; //1-72
@@ -90,10 +90,10 @@ function roll() {
 
     image1.setAttribute("src", dieImageSource1);
 
-    document.querySelectorAll("p")[1].innerText = poses[randNum1];
+    document.querySelector("p").innerText = poses[randNum1];
 
   countdown()
-    setTimeout(roll, 15000);
+    setTimeout(roll, 25000);
 }
 
 const countdown = function () {
