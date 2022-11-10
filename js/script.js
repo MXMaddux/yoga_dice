@@ -93,11 +93,11 @@ function roll() {
     document.querySelector("p").innerText = poses[randNum1];
 
   countdown()
-    setTimeout(roll, 25000);
+    setTimeout(roll, 20000);
 }
 
 const countdown = function () {
-  let timeleft = 25;
+  let timeleft = 20;
   let downloadTimer = setInterval(function(){
     timeleft--;
     document.getElementById("countdowntimer").textContent = timeleft;
